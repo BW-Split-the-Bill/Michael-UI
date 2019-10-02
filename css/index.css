@@ -1,6 +1,11 @@
 body {
   background: #61f2f5;
 }
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
 .nav-header {
   display: flex;
   flex-direction: column-reverse;
@@ -17,11 +22,6 @@ h1 {
   font-size: 3rem;
   text-shadow: 3px 3px #505bda;
   margin: 15px 0 10px 0;
-}
-.container {
-  max-width: 1000px;
-  width: 100%;
-  margin: 0 auto;
 }
 .images1 {
   display: flex;
@@ -43,12 +43,15 @@ h2 {
 h3 {
   font-size: 1.5rem;
   margin: 10px 0 10px 0;
+  text-align: center;
 }
 .paragraph {
   text-align: center;
   font-size: 20px;
+  width: 75%;
+  margin: 0 auto;
 }
-@media (max-width 500px) {
+@media (max-width: 500px) {
   .paragraph {
     width: 100%;
   }
@@ -56,8 +59,8 @@ h3 {
 .btn {
   display: flex;
   justify-content: center;
-  width: 250px;
-  height: 100px;
+  width: 150px;
+  height: 50px;
   background: #1089ff;
   color: white;
   font-size: 1rem;
@@ -77,36 +80,32 @@ h1 {
   text-shadow: 3px 3px #505bda;
   margin: 15px 0 10px 0;
 }
-.nav-header {
+.nav1-header {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
   margin: 0 auto;
 }
-.nav-header nav {
+.nav1-header nav {
   display: flex;
   justify-content: space-between;
   width: 30%;
 }
-.nav-header nav a {
+.nav1-header nav a {
   text-decoration: none;
   font-size: 1rem;
 }
-.container {
-  max-width: 1000px;
-  width: 100%;
-  margin: 0 auto;
-}
 .About .row {
   display: flex;
+  justify-content: center;
   justify-content: space-evenly;
 }
-.About .row .column {
+.About .column {
   width: 28%;
 }
-.About .row img {
+.About img {
   width: 100%;
-  height: 200px;
+  height: 220px;
   border-radius: 30px;
 }
 h4 {
